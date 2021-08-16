@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    background-image: url(../image/Evening_view_of_Munnar_1633.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.loginsignup{
+    margin: 17%;
+   /* margin-left: 30%; */
+   margin-top: 9%;
+   /* margin-left: 50px; */
+    /* border: 2px solid;  */
+    text-align: center;
+}
+.login{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+button{
+    width: 35%;
+    font-weight: bold;
+    /* border: 1px solid skyblue;
+    background-color :skyblue; */
+}
+.logincontents{
+    font-weight: bolder;
+
+
+}
+/* header{
+    background-color: black;
+    
+} */
+.nav-items{
+  font-weight: bolder;
+  color: black;
+}footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+    padding: 15px;
+  }

@@ -1,0 +1,31 @@
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  h3{
+    font-weight: bolder;
+    padding-top: 4%;
+    text-align: center;
+   
+   
+  }
+  .card-body{
+    background-color:cornsilk;
+    text-align: justify;
+    /* height: 20%; */
+  } 
+footer{
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 50px;
+  padding: 15px;
+}
+.col{
+  height: 20%;
+}
