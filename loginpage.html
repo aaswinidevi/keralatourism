@@ -6,12 +6,13 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script> 
 <link rel="stylesheet" href="loginstyle.css">
+
 </head>
 <body background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO_-2lLdw-AL8s2HjlYl54qMKlAipfET3nyw&usqp=CAU" >
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
           <div class="container">
-            <h2>Welcome to God's on Country</h2>
+            <h2>Welcome to God's own Country</h2>
             <!-- <a class="navbar-brand" href="#">Welcome to God's on Country</a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -38,37 +39,40 @@
       
       <header>
    <div class="loginsignup">
-    <form action="#" class="login">
-        <h2>USER LOGIN</h2>
-        <br>
-        <div class="logincontents">
+    <h2>USER LOGIN</h2>
+    <form action="index.html" onsubmit="return validate()" >
+      <div class="box2">
+          <div class="col-lg-7 mx-auto">
             <label>USERNAME:</label>
-            <input type="text" placeholder="enter your email">
-        </div>
-        <br>
-        <div class="logincontents">
+              <input type="email" id="email" placeholder="enter your email" >
+          </div>
+          <br>
+          <div class="col-lg-7 mx-auto" id="email-error"></div>
+          <br>
+          <div class="col-lg-7 mx-auto">
             <label>PASSWORD:</label>
-            <input type="password" placeholder="enter your password">
-        </div>
-        <br>
-        <div class="signup">
-            <button>Login</button>
-            <br>
-            <br>
-            <h4>Need an account ?</h4>
-            <a href="signup.html" id="up" target="blank">Signup</a>
-
-        </div>
-       
-   
-
-
-    </form>
+              <input type="Password" id="password" placeholder="enter your password" >
+          </div>
+          <br>
+          <div class="col-lg-7 mx-auto" id="password-error"></div>
+      </div>
+      <div class="form-row">
+          <div class="col-lg-7 mx-auto">
+              <button type="submit" class="btn1 mt-3 mb-5">Login</button>
+          </div>
+      </div>
+      <a href="#">Forgot password</a>
+      <p>Don't have an account? <a href="signup.html" target="_blank">Register here</a></p>
+  </form>
+    
    </div>
    <footer>
     All rights reserved © Kerala Tourism 2021. Copyright | Terms of Use | Cookie Policy | follow Us
   <br>
   
 </footer>
+
+    <script src="login.js"></script>
+
 </body>
 </html>
